@@ -264,7 +264,7 @@ def run_sorting_experiment(rng):
         # Additional experiment: Quick Sort on Ascending input.
         Ascending_times = []
         for source in source_arrays:
-            Ascending = sorted(source, reverse=True)
+            Ascending = sorted(source)
             Ascending_times.append(time_sort(quickSort, Ascending))
         quick_order_results.append({
             "Algorithm": "Quick Sort (Ascending Input)",
