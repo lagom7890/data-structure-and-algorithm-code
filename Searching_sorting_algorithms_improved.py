@@ -24,7 +24,7 @@ RANDOM_SEED = 42
 
 
 # -------------------------
-# Searching algorithms
+# Searching algorithms ----- Sun Runze
 # -------------------------
 def linearSearch(arr, target):
     for i, value in enumerate(arr):
@@ -58,7 +58,7 @@ def binarySearchRecursive(arr, left, right, target):
 
 
 # -------------------------
-# Sorting algorithms
+# Sorting algorithms ----- Sun Runze
 # -------------------------
 def insertionSort(arr):
     for i in range(1, len(arr)):
@@ -83,7 +83,7 @@ def bubbleSort(arr):
             break
     return arr
 
-
+# ----- Sun Runze
 def mergeSort(arr):
     if len(arr) <= 1:
         return arr
